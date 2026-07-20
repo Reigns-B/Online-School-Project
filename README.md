@@ -195,7 +195,7 @@ Digital Transformation Enthusiast • Software Engineer • Frontend Designer
 ## 🌐 Connect
 
 - Website: https://bradleydigitals.com
-- Instagram: https://instagram.com/mrbradley__
+- Instagram:https://www.instagram.com/mrbradley__/ 
 - Bradley Digitals: https://instagram.com/bradleydigitals
 
 ---
