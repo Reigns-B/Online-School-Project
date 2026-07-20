@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Learning English</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="16" stroke="#6366f1" stroke-width="2.5"/>
+                    <text x="18" y="24" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="600">E</text>
+                </svg>
+                <span>Learning English</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Course Content</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg"></div>
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>A glimpse into our vibrant learning community and classroom moments</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="classroom">Classroom</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="activities">Activities</button>
+                <button class="filter-btn" data-filter="graduation">Graduation</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="classroom">
+                    <img src="images/gallery1.jpg" alt="Students engaged in group discussion during English class" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Group Discussion Session</h3>
+                        <p>Intermediate students practicing conversational skills</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery2.jpg" alt="English speaking competition event" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Annual Speaking Competition</h3>
+                        <p>Students showcase their public speaking talents</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="activities">
+                    <img src="images/gallery3.jpg" alt="Interactive learning activity with flashcards" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Vocabulary Building Workshop</h3>
+                        <p>Hands-on activities to expand word knowledge</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classroom">
+                    <img src="images/gallery4.jpg" alt="Teacher explaining grammar on whiteboard" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Grammar in Action</h3>
+                        <p>Making complex grammar rules simple and fun</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="activities">
+                    <img src="images/gallery5.jpg" alt="Students participating in role-play exercise" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Role-Play Practice</h3>
+                        <p>Real-world scenario training for practical skills</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery6.jpg" alt="Cultural exchange day celebration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Cultural Exchange Day</h3>
+                        <p>Celebrating diversity and global perspectives</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="graduation">
+                    <img src="images/gallery7.jpg" alt="Graduation ceremony with certificate recipients" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Graduation Ceremony 2024</h3>
+                        <p>Celebrating our students' amazing achievements</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classroom">
+                    <img src="images/gallery8.jpg" alt="Students using computers for online learning" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Digital Learning Lab</h3>
+                        <p>Blending technology with language education</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="activities">
+                    <img src="images/gallery9.jpg" alt="Outdoor English picnic activity" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>English Picnic Day</h3>
+                        <p>Learning English while enjoying the outdoors</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery10.jpg" alt="Guest lecture from native English speaker" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Guest Speaker Series</h3>
+                        <p>Learning from native speakers and industry experts</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="graduation">
+                    <img src="images/gallery11.jpg" alt="Students proudly displaying certificates" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Certificate Presentation</h3>
+                        <p>Recognizing dedication and hard work</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classroom">
+                    <img src="images/gallery12.jpg" alt="Small group conversation circle" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Conversation Circles</h3>
+                        <p>Intimate group settings for speaking practice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Class Highlights</h2>
+                <p>Watch moments from our dynamic English classes</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="30" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.2)"/>
+                            <path d="M26 20L44 32L26 44V20Z" fill="white"/>
+                        </svg>
+                        <span>A Day in Our Classroom</span>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="30" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.2)"/>
+                            <path d="M26 20L44 32L26 44V20Z" fill="white"/>
+                        </svg>
+                        <span>Student Success Stories</span>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="30" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.2)"/>
+                            <path d="M26 20L44 32L26 44V20Z" fill="white"/>
+                        </svg>
+                        <span>Meet Our Teachers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <circle cx="18" cy="18" r="16" stroke="#6366f1" stroke-width="2.5"/>
+                            <text x="18" y="24" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="600">E</text>
+                        </svg>
+                        <span>Learning English</span>
+                    </a>
+                    <p>Empowering learners worldwide with quality English education since 2015.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Course Content</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>123 Education Street<br>Learning City, LC 12345</p>
+                    <p>Email: info@learningenglish.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Class Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Saturday: 10:00 AM - 2:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Learning English. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

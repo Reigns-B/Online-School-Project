@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Learning English</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="16" stroke="#6366f1" stroke-width="2.5"/>
+                    <text x="18" y="24" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="600">E</text>
+                </svg>
+                <span>Learning English</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Course Content</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg"></div>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you. Reach out for any questions or to enroll in a course.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we will get back to you within 24 hours.</p>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="enrollment">Course Enrollment</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="#10b981" stroke-width="2"/>
+                            <path d="M16 24L21 29L32 18" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. We will respond to your message within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2>Get in Touch</h2>
+                    <p>There are many ways to reach us. Choose the one that works best for you.</p>
+
+                    <div class="contact-info-cards">
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                                    <path d="M8 12L24 24L40 12" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="8" y="12" width="32" height="28" rx="4" stroke="#6366f1" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p>info@learningenglish.com</p>
+                                <p>support@learningenglish.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                                    <path d="M16 8C16 8 20 4 24 4C28 4 32 8 32 8" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M12 12C12 12 8 16 8 20V36C8 40 12 44 16 44H32C36 44 40 40 40 36V20C40 16 36 12 36 12" stroke="#6366f1" stroke-width="2"/>
+                                    <rect x="18" y="34" width="12" height="6" rx="3" stroke="#6366f1" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>(555) 123-4567</p>
+                                <p>(555) 987-6543</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                                    <circle cx="24" cy="20" r="10" stroke="#6366f1" stroke-width="2"/>
+                                    <path d="M14 38C14 38 18 30 24 30C30 30 34 38 34 38" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="24" cy="20" r="4" stroke="#6366f1" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <p>123 Education Street</p>
+                                <p>Learning City, LC 12345</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                                    <circle cx="24" cy="24" r="16" stroke="#6366f1" stroke-width="2"/>
+                                    <path d="M24 14V24L30 28" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Office Hours</h4>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                                <p>Saturday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-74.02%2C40.70%2C-73.98%2C40.72&amp;layer=mapnik"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                title="Map showing Learning English location">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our programs</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is the minimum age to enroll in classes?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We welcome students aged 12 and above. We have specialized programs for teenagers (12-17) and adults (18+). For younger learners, we recommend our partner institution that focuses on children's language education.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I know which level is right for me?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer a free placement test that evaluates your grammar, vocabulary, reading, listening, and speaking skills. Based on your results, our academic advisor will recommend the most suitable level for you. You can take the test online or at our center.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I switch between class schedules?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we understand that life can be unpredictable. You can switch between available time slots for your level with at least 48 hours notice. Contact our student services team to arrange a schedule change at no extra cost.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer online classes?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer both in-person and online classes via our interactive virtual classroom platform. Online classes include live video sessions, digital whiteboards, breakout rooms for group work, and recorded sessions for review.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What payment options are available?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept credit/debit cards, bank transfers, and digital payment methods. We also offer flexible payment plans that allow you to pay in monthly installments. A 10% discount is available when you pay for a full course upfront.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <circle cx="18" cy="18" r="16" stroke="#6366f1" stroke-width="2.5"/>
+                            <text x="18" y="24" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="600">E</text>
+                        </svg>
+                        <span>Learning English</span>
+                    </a>
+                    <p>Empowering learners worldwide with quality English education since 2015.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Course Content</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>123 Education Street<br>Learning City, LC 12345</p>
+                    <p>Email: info@learningenglish.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Class Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Saturday: 10:00 AM - 2:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Learning English. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
