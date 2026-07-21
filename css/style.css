@@ -256,12 +256,18 @@ ul {
 
 .hero-image {
     position: relative;
+    width: 100%;
+    max-width: 500px;      
+    border-radius: 24px;
+        overflow: hidden;       /* clips the image to the rounded frame */
 }
+
 
 .hero-image img {
     width: 100%;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-xl);
+    height: 100%;
+    object-fit: cover;      
+    display: block;         
 }
 
 .hero-image::before {
