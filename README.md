@@ -88,7 +88,7 @@ git clone https://github.com/Reigns-B/learning-english.git
 ### Navigate into the project
 
 ```bash
-cd learning-english
+cd Online-School
 ```
 
 ### Open the website
