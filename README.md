@@ -188,7 +188,7 @@ Through this project, I strengthened my understanding of:
 
 **Bradley Ochieng**
 
-Digital Transformation Enthusiast • Software Engineer • Frontend Designer 
+Digital Transformation Enthusiast • Software Engineer •   Digital Marketing Expert
 
 ---
 
